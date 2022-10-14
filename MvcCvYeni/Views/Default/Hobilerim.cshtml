@@ -1,0 +1,13 @@
+﻿@using MvcCvYeni.Models.Entity
+@model List<TblHobilerim>
+
+<div class="resume-section-content">
+    <h2 class="mb-5">Hobilerim</h2>
+    @foreach (var item in Model)
+    {
+        <span class="fa-li"><i class="fas fa-check"></i></span>
+       @item.Aciklama1 
+
+    }
+</div>
+
